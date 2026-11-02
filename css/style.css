@@ -7,10 +7,10 @@
   box-sizing: border-box;
 }
 
-  /* .container{
+.container{
   width: 1166px;
   margin: 0 auto;
-} */
+} 
 
 ul {
   list-style-type:none;
@@ -29,10 +29,7 @@ ul li a {
   color:black;
 }
 
-.menu a {
-  color: black
 
-}
 
 /*css common part end here*/
 
@@ -83,6 +80,7 @@ ul li a {
 .bannerFlex{
   display: flex;
   gap: 16px;
+  margin-left: 100px;
 }
 
 .leftPart h1 {
@@ -95,16 +93,19 @@ ul li a {
   letter-spacing: 0%;
   color: #203239;
   margin-top: 164px;
-  margin-left: 100px;
+  margin-left: -187px;
+
 }
 
 .leftPart p {
   font-family: poppins;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   color: #203239;
   margin-bottom: 56px;
+  margin-left: -181px;
+  margin-top: 24px;
   width: 544px;
  
 }
@@ -115,23 +116,23 @@ ul li a {
   border: none;
   outline: none;
   font-family: poppins;
-  font-style: 16px;
+  font-size: 16px;
   color: #203239;
   background:#FFFF;
   display: flex;
+  gap:6px;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+  margin-left: -295px;
+  margin-top: 56px;
   
 }
 
 .bannerBtnOne img{
   width: 24px;
   height: 24px;
-  margin: 0px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: -100px;
 }
 
 .bannerBtnTwo{
@@ -144,20 +145,122 @@ ul li a {
   border: none;
   outline: none;
   font-family: poppins;
-  font-style: 16px;
+  font-size: 16px;
   color: #203239;
   background:#FFFF;
   padding: 23px 41Px;
+  margin-top: 56px;
 }
 
+.rightPart img {
+  width: 373px;
+  height: 522px;
+  margin-top: 136px;
+}
+/* / *css banner part end here */ 
+/* //tahapanPart start here// */
+.tahapanPart {
+  background: #FFFFFF;
+  padding: 100px 100px;
+}
 
+.tahapanText h2 {
+  font-family: poppins;
+  font-weight: 600;
+  width: 533px;
+  font-size: 36px;
+  color: #203239;
+  margin-top: 100px;
+  margin-left: -2px;
+}
+.tahapanCard {
+  display: flex;
+  gap: 135px; 
+}
+.cardOne {
+  border: 5px solid #c1bbbb47;
+  border-radius: 10px;
+  padding: 20px 32px;
+  width: 300px;
+  height: 300px;
+  margin-top: 62px;
+  width:33%;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25) 
+}
+.cardOne h4 {
+  font-family:poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color:#203239;
+}
+.cardOne p {
+  font-family:poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+  width: 235px;
+  height: 150px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.cardTwo {
+  border: 5px solid #c1bbbb47;
+  border-radius: 10px;
+  padding: 20px 32px;
+  width: 300px;
+  height: 300px;
+  margin-top: 62px;
+  width:33%;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25)
+}
+.cardTwo h4 {
+  font-family:poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color:#203239;
+}
 
+.cardTwo p {
+  font-family:poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+  width: 232px;
+  height: 120px;
+  margin-top: 8px;
+  margin-bottom: 39px;
+}
 
+.cardThree {
+  border: 5px solid #c1bbbb47;
+  border-radius: 10px;
+  padding: 20px 32px;
+  width: 300px;
+  height: 300px;
+  margin-top: 62px;
+  width:33%;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25)
+}
 
+.cardThree h4 {
+  font-family:poppins;
+  font-weight: 500;
+  font-size: 16px;
+  color:#203239;
+}
 
-
-
-
-
-
+.cardThree p {
+  font-family:poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+  width: 232px;
+  height: 150px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+/* //tahapanPart end here// */
 
