@@ -33,14 +33,14 @@ ul li a {
 /*css common part end here*/
 /*css header part start here*/
 .header {
-  width: 1166px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;  
 } 
 
 #headerPart {
-  padding:63px 100px;
+  padding:63px 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -53,14 +53,15 @@ ul li a {
 
   .btnn{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 15px;
-
+    margin-top: 56px;
   }
 
   #bannerPart{
   background:url(../index.html/images/banner.png);
+  padding-top: 188px;
+  padding-bottom: 120px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,16 +70,14 @@ ul li a {
 } 
 
 .banner{
-  padding: 96px;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-}
-
-.bannerFlex{
   display: flex;
   gap: 16px;
-  margin-left: 100px;
+  justify-content:space-between;
+
+}
+
+.leftPart{
+  margin-top: 256px;
 }
 
 .leftPart h1 {
@@ -90,9 +89,6 @@ ul li a {
   line-height:150%;
   letter-spacing: 0%;
   color: #203239;
-  margin-top: 164px;
-  margin-left: -187px;
-
 }
 
 .leftPart p {
@@ -101,14 +97,11 @@ ul li a {
   font-weight: 400;
   line-height: 30px;
   color: #203239;
-  margin-bottom: 56px;
-  margin-left: -181px;
-  margin-top: 24px;
-  width: 544px;
- 
+  width: 544px; 
 }
 
-.bannerBtnOne{
+
+/* .bannerBtnOne{
   width: 508px;
   height: 70px;
   border: none;
@@ -134,6 +127,25 @@ ul li a {
   width: 24px;
   height: 24px;
   margin-left: -100px;
+} */
+
+
+ 
+
+.bannerBtnOne {
+  border: none  ;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 20px;
+  width: 508px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.bannerBtnOne input {
+  border: none ;
+  width: 351px;
+  outline: none;
 }
 
 .bannerBtnTwo{
@@ -150,13 +162,7 @@ ul li a {
   color: #203239;
   background:#FFFF;
   padding: 23px 41Px;
-  margin-top: 56px;
   transition: all linear 0.3s;
-}
-
-.bannerBtnTwo:hover {
-  background:#FF7527;
-  color:#FFFF;
 }
 
 .rightPart img {
@@ -243,7 +249,7 @@ ul li a {
   height: 300px;
   margin-top: 62px;
   width:33%;
-  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25)
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
 }
 
 .cardTwo img {
@@ -277,7 +283,7 @@ ul li a {
   width: 232px;
   height: 120px;
   margin-top: 8px;
-  margin-bottom: 78px;
+  margin-bottom: 58px;
 }
 .cardThree {
   position: relative;
@@ -288,8 +294,9 @@ ul li a {
   height: 300px;
   margin-top: 62px;
   width:33%;
-  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25)
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);  
 }
+
 .cardThree img {
   position: absolute;
   left:0px ;
@@ -320,7 +327,7 @@ ul li a {
   color: #203239;
   width: 232px;
   height: 150px;
-  margin-bottom:48px;
+  margin-bottom:28px;
   margin-top:8px;
 }
 /* //tahapanPart end here// */
