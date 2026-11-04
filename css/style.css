@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -29,10 +30,7 @@ ul li a {
   color:black;
 }
 
-
-
 /*css common part end here*/
-
 /*css header part start here*/
 .header {
   width: 1166px;
@@ -125,10 +123,13 @@ ul li a {
   justify-content: center;
   border-radius: 15px;
   margin-left: -295px;
-  margin-top: 56px;
-  
+  margin-top: 56px; 
+  transition: all linear 0.3s;
 }
-
+.bannerBtnOne:hover{
+  background:#FF7527;
+  color:#FFFF;
+}
 .bannerBtnOne img{
   width: 24px;
   height: 24px;
@@ -150,6 +151,12 @@ ul li a {
   background:#FFFF;
   padding: 23px 41Px;
   margin-top: 56px;
+  transition: all linear 0.3s;
+}
+
+.bannerBtnTwo:hover {
+  background:#FF7527;
+  color:#FFFF;
 }
 
 .rightPart img {
@@ -188,8 +195,7 @@ ul li a {
   height: 300px;
   margin-top: 62px;
   width:33%;
-  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
-  
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);  
 }
 
 .cardOne img {
@@ -214,7 +220,6 @@ ul li a {
   color: #FF7527; 
   font-weight: 600;
   font-size: 16px; 
- 
 }
 
 .cardOne p {
@@ -244,7 +249,6 @@ ul li a {
 .cardTwo img {
   position: absolute;
   left:0px ;
-
 }
 
 .bbb{
@@ -256,15 +260,12 @@ ul li a {
   color: #FF7527; 
   font-weight: 600;
   font-size: 16px; 
-
- 
 }
 .cardTwo h4 {
   font-family:poppins;
   font-weight: 500;
   font-size: 16px;
   color:#203239;
-
 }
 
 .cardTwo p {
@@ -278,7 +279,6 @@ ul li a {
   margin-top: 8px;
   margin-bottom: 78px;
 }
-
 .cardThree {
   position: relative;
   border: 5px solid #c1bbbb47;
@@ -290,11 +290,9 @@ ul li a {
   width:33%;
   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25)
 }
-
 .cardThree img {
   position: absolute;
   left:0px ;
-
 }
 .ccc{
   display: flex;
@@ -305,16 +303,13 @@ ul li a {
   color: #FF7527; 
   font-weight: 600;
   font-size: 16px; 
-
- 
 }
 
 .cardThree h4 {
   font-family:poppins;
   font-weight: 500;
   font-size: 16px;
-  color:#203239;
-  
+  color:#203239;  
 }
 
 .cardThree p {
@@ -330,3 +325,352 @@ ul li a {
 }
 /* //tahapanPart end here// */
 
+/* //resident part css start here// */
+  #residentPart {
+    background:#EEEDDE;
+    padding-top: 68px;
+    padding-bottom:138px;
+  
+  }
+  .resident_Part_Flex {
+    display: flex;
+    gap: 64px;
+  }
+
+  .resident_Part_Left p {
+    font-family:poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF7527;
+  }
+  .resident_Part_Left h2 {
+    font-family: poppins;
+    font-weight: 600;
+    width: 300px;
+    font-size: 36px;
+    color: #203239;
+  }
+   .resident_Part_Left {
+    position:relative;
+    z-index: 0;
+   }
+
+  .imgTwo {
+    position: absolute;
+    z-index: 1;
+    left: 169px;
+    top: 131px;
+  }
+
+  .resident_Part_Right h2 {
+    font-family: poppins;
+    font-weight: 600;
+    width: 507px;
+    font-size: 36px;
+    color: #203239; 
+    margin-top: 110px;
+    margin-left: 258px;
+    margin-bottom: 24px;
+  }
+
+  .resident_Part_Right p {
+    font-family: poppins;
+    font-weight: 400;
+    width: 570px;
+    font-size: 16px;
+    color: #203239; 
+    margin-left: 258px;
+  }
+  .residentBtn {
+    display: flex;
+    gap: 48px;
+    margin-top: 60px;
+    margin-left: 258px;
+
+  }
+  .btnOne {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    background: #EEEDDE; 
+    color: #203239;
+    padding: 13px 41px;
+    border-radius: 10px;
+    border: 1px solid #203239;
+    transition: all linear 0.3s;
+  }
+
+  .btnOne:hover {
+    background:#203239;
+    color: #FF7527;
+   
+  }
+  .btnOne a {
+    display: flex;
+    gap: 12px;
+    align-items: center;  
+    
+  } 
+
+  .btnTwo {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    background: #FFFFFF; 
+    color: #203239; 
+    padding: 13px 41px;
+    border-radius: 10px;
+    border: 1px solid #203239;
+    transition: all linear 0.3s;
+  }
+  .btnTwo:hover {
+    background:#203239;
+  }
+/* //resident part css end here// */
+/* <//resident kota start here// --> */   */
+#resident_Kota_Part {
+  background: #FFFFFF;
+  padding: 68px 68px;
+  }
+  .residentContent p {
+    font-family:poppins;
+    font-weight: 400;
+    font-size: 16px;
+    width: 117px;
+    color: #FF7527;
+    margin-top: 68px;
+  }
+
+  .residentContent h2{
+    font-family: poppins;
+    font-weight: 600;
+    width: 428px;
+    font-size: 36px;
+    color: #203239;
+    margin-top:8px;
+    margin-bottom: 64px;
+  }
+  .residentImg {
+    display: flex;
+    gap: 24px;
+  }
+
+  .tree_Img_One h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #203239;
+    margin-top: 16px;
+  }
+
+    .tree_Img_One p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #203239ad;
+    margin-top:8px;
+    width: 301px;
+    height: 90px;
+    margin-bottom: 68px;
+  }
+
+    .tree_Img_Two h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #203239;
+    margin-top: 16px;
+  }
+
+    .tree_Img_Two p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #203239ad;
+    margin-top:8px;
+    width: 356px;
+    height: 60px;
+    margin-bottom: 68px;
+  }
+
+    .tree_Img_Three h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #203239;
+    margin-top: 16px;
+  }
+
+    .tree_Img_Three p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #203239ad;
+    margin-top:8px;
+    width: 348px;
+    height: 90px;
+    margin-bottom: 68px;
+  }
+  /* <!-- //resident kota end here// --> */
+   /* <!-- //footer Part start here// --> */
+  #footerPart {
+    background:#EEEDDE;
+    padding-top: 48px;
+    padding-bottom: 0px;
+  }
+  .fotterPart_Flex {
+    display: flex;
+    gap: 150px;
+  }
+
+  .footerPart_Left h2 {
+    font-weight: 600;
+    width: 261px;
+    font-size: 36px;
+    color: #203239;
+    margin-bottom: 74px;
+ 
+  }
+  .call_card_Flex {
+    display: flex;
+    gap: 24px;
+  }
+
+  .call_Card_Left {
+    width:274px;
+    height:167px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 48px;
+    transition: all linear 0.3s;
+  }
+  .call_Card_Left:hover {
+    background: #203239;
+  }
+
+  .call_Card_Right {
+    width:274px;
+    height:167px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 48px;
+    transition: all linear 0.3s;
+  }
+  .call_Card_Right:hover{
+    background: #203239;
+  }
+
+  .call_Card_Left h6 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #203239;
+    margin-top: 25px;
+    margin-left:18px;
+  
+  }
+
+   .call_Card_Left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #203239;
+    margin-top: 0px;
+    margin-left:95px;
+    margin-bottom:20px;
+  }
+  .call_Card_Left i {
+    width: 34px;
+    height: 33px;
+    margin-left: 41px;
+  }
+
+  .call_Card_Left button {
+    padding: 10px 18px;
+    background: #203239;
+    margin-left: 83px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+  }
+
+  .call_Card_Left button:hover {
+    background:#FF7527;
+  }
+  .call_Card_Left button a {
+    color: #FFFFFF;
+  }
+
+    .call_Card_Right h6 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #203239;
+    margin-top: 25px;
+    margin-left:18px;
+    
+  }
+
+    .call_Card_Right p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #203239;
+    margin-top: 0px;
+    margin-left:95px;
+    margin-bottom:20px;
+  }
+   .call_Card_Right i {
+    width: 34px;
+    height: 33px;
+    margin-left: 41px;
+  }
+  .call_Card_Right button {
+    padding: 10px 18px;
+    background: #203239;
+    margin-left: 83px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: all linear 0.3s;
+  }
+
+  .call_Card_Right button:hover {
+    background: #FF7527;
+  }
+  .call_Card_Right button a {
+    color: #FFFFFF;
+  }
+
+  .footerPart_Right {
+    width: 367px;
+    height: 235px;
+    margin-top: 88px;
+    margin-left: 150px;
+    margin-bottom: 68px;
+  }
+  .footerPart_Right h2 {
+    font-weight: 600;
+    font-size: 36px;
+    width: 253px;
+  }
+
+  .footerPart_Right img {
+    margin-top: 36px;
+    margin-left: 50px;
+  }
+
+  .footer_nav_Part {
+    background: #000;
+    padding: 30px 30px;
+  }
+  .nav_Flex {
+    width: 1166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .iconPart {
+    display: flex;
+    gap: 60px;
+  }
+
+  .iconPart a {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+   /* <!-- //footer Part end here// --> */
